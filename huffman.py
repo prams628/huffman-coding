@@ -62,8 +62,6 @@ class HuffmanCoding:
 
 
 	def make_codes_helper(self, root, current_code):
-		if(root == None):
-			return
 
 		if(root.char != None):
 			self.codes[root.char] = current_code
